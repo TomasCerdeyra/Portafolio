@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Hkmodular;
+  src: url("./fonts/Subtitles.ttf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  background-color: #545454;
+  height: 100%;
+}
+
+.root{
+  height: 100%;
+}
+
+.App{
+  font-family: Hkmodular;
+  font-size: 3em;
+  height: 100%;
+}

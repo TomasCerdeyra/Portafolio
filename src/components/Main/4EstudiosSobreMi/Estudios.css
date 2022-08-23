@@ -1,0 +1,50 @@
+:root{
+    --tamañoLetra: .4em;
+    --tamañoLetraMax: .5em;
+}
+
+.cont-estudios{
+    border-bottom: 2px solid black;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.div-estudiosEscuela{
+    width: 50%;
+}
+
+.p-estudios{
+    font-size: var(--tamañoLetra);
+}
+
+.p-escuela{
+    font-size: var(--tamañoLetra);
+    color: rgb(41, 22, 22);
+}
+
+.p-estado{
+    width: 50%;
+    font-size: var(--tamañoLetra);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: rgb(16, 60, 255);
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .p-estudios{
+        font-size: var(--tamañoLetraMax);
+    }
+    
+    .p-escuela{
+        font-size: var(--tamañoLetraMax);
+        margin-top: 10px;
+    }
+    
+    .p-estado{
+        font-size: var(--tamañoLetraMax);
+    }
+}
