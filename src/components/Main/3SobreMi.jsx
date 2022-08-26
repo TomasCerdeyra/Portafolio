@@ -1,9 +1,9 @@
 import React from 'react'
-import Estudios from './4EstudiosSobreMi/Estudios'
+import Estudios from './3EstudiosSobreMi/Estudios'
 
 const SobreMi = () => {
     return (
-        <div className='cont-sobreMi'>
+        <section className='cont-sobreMi'>
             <section>
                 <h2>Sobre mi:</h2>
                 <div className='cont-mensaje'>
@@ -24,7 +24,7 @@ const SobreMi = () => {
                 <Estudios Estudio='Programacion Backend' Escula='CoderHouse' Estado='En Proceso...' />
                 <Estudios Estudio='Analista en Sistemas' Escula='UNS' Estado='En Proceso...' />
             </section>
-        </div>
+        </section>
     )
 }
 

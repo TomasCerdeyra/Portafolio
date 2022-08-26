@@ -33,6 +33,7 @@ header{
     display: flex;
     gap: 20px;
     font-size: .55em;
+    color: white;
 }
 @media (min-width: 768px) {
     .Menu-nav{

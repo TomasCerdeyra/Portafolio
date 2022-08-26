@@ -4,13 +4,13 @@ import Typewriter from 'typewriter-effect';
 
 const Titilo = () => {
     return (
-        <div className='cont-titulo'>
+        <section className='cont-titulo'>
             <h1>
                 <Typewriter onInit={(typewriter) => {
                     typewriter.typeString("Tomas Cerdeyra").start();
                 }} />
             </h1>
-        </div>
+        </section>
     )
 }
 
